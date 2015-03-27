@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/portada"
+    android:orientation="vertical"
+    tools:context=".Portada" >
+"
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Portada"
+        style="@style/tittle"
+        android:textColor="#FF0000"
+        android:textStyle="bold|italic" />
+ 	<!-- <TextView
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Renglon"
+         /> -->
+
+    <Button
+        android:id="@+id/Iniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="@string/Iniciar"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
